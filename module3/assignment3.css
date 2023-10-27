@@ -1,0 +1,53 @@
+/*James Brown
+  assignment3.css
+  INFO1311_5A
+  Kuisma
+  10_2_2019
+*/
+
+body {
+	  background-color: #666666;
+	  background-image: linear-gradient(to bottom, #ffffff, #666666);
+      background-repeat: no-repeat;
+	  font-family: Arial, Helvetica, sans-serif;
+	  margin: 0px;
+}
+
+#container {
+	        width: 960px;
+	        padding: 20px;
+			margin-right: auto;
+			margin-left: auto;
+			background-color: #ffffff;
+			box-shadow: 5px 5px 5px #1e1e1e;
+			border-radius: 15px;	  
+}
+
+header {
+	    background-image: url(background.jpg);
+		background-repeat: no-repeat;
+		height: 150px;
+		border: 1px solid black;
+		border-radius: 15px;
+}
+
+h1 {
+	font-family: Impact, sans-serif;
+	font-size: 4em;
+	padding-left: 150px;
+	color: hsla(0, 0%, 0%, 0.2);
+}
+h2 {
+	font-family: Arial, sans-serif;
+}
+
+.photo {
+	    float: right;
+}
+
+footer {
+	    border-top: 1px solid black;
+		text-align: right;
+		font-size: .8em;
+		font-style: italic;
+}

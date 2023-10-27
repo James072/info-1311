@@ -1,0 +1,28 @@
+/*James Brown
+  musicsurvey.css
+  INFO1311_5A
+  Kuisma
+  10_24_2019
+*/
+
+body {                              
+	background-color: #00FFFF;
+	font-family: Arial, Lao UI, sans-serif;
+	color: #0000FF;
+}
+h1 {
+	font-family: Comic Sans MS;
+	color: #FFA500;
+}
+fieldset {
+	width: 530px;
+	border-color: #FFA500;
+}
+legend {
+	color: #0000FF;
+	background-color: #FFA500;
+}
+.frequire {
+	color: red;
+	font-size: 10pt;
+}

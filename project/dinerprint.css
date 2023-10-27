@@ -1,0 +1,98 @@
+/*James Brown
+  dinerlayout.css
+  INFO1311_5A
+  Kuisma
+  11_16_2019
+*/
+
+#wrapper {
+	width: 100%;
+	max-width: 1024px;
+    margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	color: black;
+}
+
+body {
+	font-size: 12pt;
+	font-family:Arial, sans-serif;
+}
+
+nav, footer {
+	display: none;
+}
+
+header img {
+	display: none;
+}
+
+#title {
+	text-align: center;	
+}
+
+h1 {
+	text-align: center;
+}
+
+.homepic {
+	display: none;
+}
+
+.blackwhite{
+	max-width: 100%;
+}
+
+.homepic2 {
+	display: none;
+}
+
+.homepic3 {
+	display: none;
+}
+
+.bitbyte {
+	display: none;
+}
+.bitbyte2 {
+	max-width: 100%;
+}
+.olddiner {
+	display: none;
+}
+.turkey {
+	display: none;
+}
+.chipdrive {
+	display: none;
+}
+.chipdrive2 {
+	max-width: 100%;
+}
+.partyroom {
+	display: none;
+}
+
+#tablehist {
+	display: none;
+}
+
+#specialstable {
+	display: none;
+}
+
+#specialstable2 {
+	display: none;
+}
+
+#specialstable3 {
+	display: none;
+}
+
+.pspecials {
+	font-size: 12pt;
+}
+
+.videospecials {
+	display: none;
+}
