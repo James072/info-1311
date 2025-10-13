@@ -11,6 +11,7 @@
 	<ul>
 		<li>10-Week course that taught basic understanding of<br>
 			HTML5 and CSS3</li>
+		<li>This repo contains completed course work</li>
 	</ul>
 </body>
 </html>
