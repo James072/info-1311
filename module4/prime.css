@@ -1,0 +1,65 @@
+/*James Brown
+     prime.css
+	 INFO1311_5A
+	 Kuisma
+	 10_10_2019
+*/
+
+body {
+	  background-color: #003366;
+	  font-family: Arial, Helvetica, sans-serif;
+	  color: #ffffcc;
+}
+#wrapper {
+	      width: 680px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  background-color: #ffffcc;
+		  color: #000066;
+		  padding-left: 10px;
+		  padding-top: 20px;
+		  border-radius: 15px
+}
+header {
+	    text-align: center;
+}
+nav {
+	 float: left;
+	 width: 150px;
+}
+nav ul {
+	    list-style-type: none;
+		padding-left: 5px;
+}
+nav ul li {
+            padding-bottom: 10px;
+}
+main {
+	  margin-left: 150px;
+	  padding: 0px 20px 20px 0px;
+}
+footer {
+	    font-size: .8em;
+		text-align: center;
+		border-top: 1px solid #003366; 
+		margin-left: 170px;
+		margin-right: 30px;
+		padding-bottom: 20px;
+}
+footer ol {
+	    list-style-type: none;
+		margin-right: 45px;
+		height: 5px;
+}
+footer ol li {
+	    display: inline;
+		margin-left: 5px;
+}      
+.location {
+	       font-weight: bold;
+		   color: #003366;
+}
+.copyright {
+	        font-style: italic;
+			height: 7px;
+}

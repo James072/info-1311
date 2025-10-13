@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Final Project/Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="dinerlayout.css" media="screen">
+	<link rel="stylesheet" href="dinerprint.css" media="print">
+	</head>
+	
+	<body>
+		<div id="wrapper">
+	<!--James Brown
+	    diner_home.htm
+		INFO1311_5A
+		Kuisma
+		11_8_2019-->
+		
+		<header>
+		<img class="logo" src="diner_logo_300.gif" alt="the downtown diner logo">
+		<h1 id="title">DOWNTOWN DINER</h1>
+		<h1>"BEST HOME COOKIN' IN THE CITY!"</h1>
+		</header>
+		
+		<nav>
+<ul>
+  <li><a href="dinerhome.html">Home</a></li>
+  <li><a href="dinerhistory.html">History</a></li>
+  <li><a href="dinerspecials.html">Specials</a></li>
+  <li><a href="dinercontact.html">Contact Us</a></li>
+</ul>
+		</nav>
+		
+		<main>
+			<h2 class="contacts">Contact Us</h2>
+			<p class="pcontact">Feel free to communicate with us about your visit to our restaurant.  Please fill out
+			   the form<br> below and let us know of any questions or concerns you may have.<br>
+			   <em id="colorit">(Required fields marked with asterik *)</em></p>
+		<!--for print media-->	   
+			<p class="pcontact2">Feel free to communicate with us about your visit to our restaurant.  Please fill out
+			   the form below and let us know of any questions or concerns you may have.<br>
+			   <em id="colorit">(Required fields marked with asterik *)</em></p>
+			
+				<form action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp" method="post" class="formcontrol">
+				<label><strong class="asterik">*</strong>First Name:<br> <input type="text" name="userfirstname" 
+				                                                          size="30" required="required"></label><br><br>
+				<label><strong class="asterik">*</strong>Last Name:<br> <input type="text" name="userlastname" 
+				                                                          size="30" required="required"></label><br><br>
+				<label><strong class="asterik">*</strong>E-mail:<br> <input type="text" name="email" size="30" 
+				                                                      required="required"></label><br><br>
+				<label><strong class="asterik">*</strong>Phone:<br> <input type="text" name="phone" size="30" 
+				                                                      required="required"></label><br>
+																	  
+				<label>Communication preference: <input type="radio" name="preference" value="phone">Phone</label>
+				<label><input type="radio" name="preference" value="email">E-mail</label><br><br><br>
+				
+				<label>Questions or Comments:<br>
+				<textarea class="comments" name="music comments" cols="60"></textarea>
+				</label>
+				<br><br>
+				<input type="submit" value="Submit" class="submit">
+				<input type="reset" value="Reset" class="reset">
+				<br>
+				<input name="recipient" type="hidden" value="tkuisma@mccneb.edu">
+				<input name="title" type="hidden" value="INFO1311 Final Project James Brown"><br>
+				<input name="required" type="hidden" value="userfirstname, userlastname, email, phone">
+				<input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~jbrown213/project/diner_contact.htm">
+				<input name="return_link_title" type="hidden" value="INFO1311 Final Project">
+				<input name="bgcolor" type="hidden" value="#FFFFFF">
+				<input name="title" type="hidden" value="Thank you for taking the time to complete the form.<br>
+				 Below is the information that you submitted.  Please print this page and keep it for your records.">
+				<input type="hidden" name="text_color" value="#000000">
+				<input name="font_face" type="hidden" value="Cooper Std Black, Arial, Helvetica">
+				<input name="font_size" type="hidden" value="6">
+				</form>
+				
+			<p class="pinfo">Downtown Diner<br>
+			   5th & Hypertext Avenue<br>
+			   Omaha, NE  68104<br>
+			   402-555-5555<br><br>
+			   Chip & Drive Smith, Owners</p>
+		</main>
+		
+	<footer>
+	<ul>
+		<li><a href="dinerhome.html">Home</a></li>
+		<li><a href="dinerhistory.html">History</a></li>
+		<li><a href="dinerspecials.html">Specials</a></li>
+		<li><a href="dinercontact.html">Contact Us</a></li>
+	</ul>
+	Copyright &copy; 2019 Downtown Diner.<br><br>
+	<a href="mailto:jbrown213@mail.mccneb.edu">James J. Brown III</a>
+	</footer>
+  </div>
+</body>

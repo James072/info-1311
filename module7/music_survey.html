@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="musicsurvey.css">
+</head>
+<body>
+ <!-- James Brown
+       music_survey.html
+	   INFO1311_5A
+	   Kuisma
+	   10_23_2019-->
+	<h1>Music Survey</h1>
+	<p>The purpose of this survey is to collect data about your listening and purchasing<br>
+	   preferences in regard to music.  This helps our company to better serve you by<br>
+	   sending you offers and promotions based on your entries.  This is a secure form<br> 
+	   and your information will not be distributed or sold to third-party vendors.<br>
+	   It will only be used for the expressed purpose stated above.</p>
+	   
+	<form action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp" method="post">
+	<label>First Name:<br> <input type="text" name="userfirstname" size="30" required="required">
+	<strong class="frequire">(required)</strong></label><br><br>
+	<label>Last Name:<br> <input type="text" name="userlastname" size="30" required="required">
+	<strong class="frequire">(required)</strong></label><br><br>
+	<label>E-mail:<br> <input type="text" name="email" size="30" required="required">
+	<strong class="frequire">(required)</strong></label><br><br>
+	
+	<fieldset>
+	<legend>Select Your Favorite Types of Music:</legend>
+	<label><input type="checkbox" name="favorites" value="pop music">Pop</label><br>
+	<label><input type="checkbox" name="favorites" value="classical music">Classical</label><br>
+	<label><input type="checkbox" name="favorites" value="rock music">Rock</label><br>
+	<label><input type="checkbox" name="favorites" value="folk music">Folk</label><br>
+	<label><input type="checkbox" name="favorites" value="rap music">Rap</label><br>
+	<label><input type="checkbox" name="favorites" value="other">Other</label><br>
+	</fieldset>
+	<br>
+	<fieldset>
+	<legend>Select how often you purchase Music Cds:</legend>
+	<label><input type="radio" name="purchases" value="weekly">Weekly</label><br>
+	<label><input type="radio" name="purchases" value="a few">A few CDs each year</label><br>
+	<label><input type="radio" name="purchases" value="monthly">Monthly</label><br>
+	<label><input type="radio" name="purchases" value="never">Never Purchase</label><br>
+	</fieldset>
+	<br>
+	<label for="accesstype">Select the method you use most often to purchase Music:<br></label>
+	<select name="accesstype" id="accesstype">
+		<option value="select none">&nbsp;</option>
+		<option value="online">Online</option>
+		<option value="retail store">Retail Store</option>
+		<option value="other">Other</option>
+	</select><br><br>
+	
+	<label>What role does music play in your life?<br>
+	<textarea name="music comments" cols="60"></textarea>
+	</label>
+	<br><br>
+	<input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+	
+	<input name="recipient" type="hidden" value="tkuisma@mccneb.edu">
+    <input name="title" type="hidden" value="INFO1311 Form Assignment">
+	<input name="required" type="hidden" value="userfirstname, userlastname, email">
+	<input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~jbrown213/module7/music_survey.html">
+	<input name="return_link_title" type="hidden" value="Music Survey">
+	<input name="bgcolor" type="hidden" value="#00FFFF">
+	<input name="title" type="hidden" value="Thank you for taking the time to complete the form.<br>
+	 Below is the information that you submitted.  Please print this page and keep it for your records.">
+	<input type="hidden" name="text_color" value="#000000">
+	<input name="font_face" type="hidden" value="Arial, Helvetica">
+	<input name="font_size" type="hidden" value="6">
+	</form>
+</body>
+</html>
