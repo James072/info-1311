@@ -41,24 +41,6 @@ h3 {
 	color: blue;
 }
 
-#oddrow {
-	background-color: blue;
-	list-style-type: none;
-}
-
-#evenrow {
-	background-color: steelblue;
-	list-style-type: none;
-}
-
-#oddrow a {
-	color: white;
-}
-
-#evenrow a {
-	color: white;
-}
-
 footer {
 	background-color: lightgray;
 	text-align: right;
